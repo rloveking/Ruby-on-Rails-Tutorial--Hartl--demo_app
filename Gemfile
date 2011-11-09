@@ -17,6 +17,7 @@ end
 group :production do
   gem 'execjs'
   gem 'pg'
+  gem 'mysql2'
   # gem 'therubyracer-heroku'
 end
   

@@ -10,6 +10,7 @@ gem 'sqlite3'
 group :production do
   gem 'execjs'
   gem 'pg'
+  gem 'therubyracer'
 end
   
 # Gems used only for assets and not required

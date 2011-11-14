@@ -5,6 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+<<<<<<< HEAD
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails'
@@ -44,3 +45,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+<<<<<<< HEAD
+=======
+
+group :test do
+  # Pretty printed test output
+  gem 'turn', :require => false
+end
+>>>>>>> 660ad890e314a118f247442eb98e7e638dcfbce7
